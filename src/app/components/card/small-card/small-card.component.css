@@ -1,0 +1,49 @@
+.card-container {
+    position: relative;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+
+    display: flex;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.card-img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    transition: opacity 0.1s;
+}
+
+.card-img:hover {
+    opacity: 0.4;
+
+
+}
+
+
+
+/* Media Queries */
+/* Estilos para telas pequenas */
+@media (max-width: 600px) {
+    .card-container{
+        width: 150px;
+        height:170px;
+    }
+
+  }
+  
+  /* Estilos para telas médias */
+  @media (min-width: 600px) and (max-width: 1200px) {
+    .card-container{
+        width: 250px;
+        height:250px;
+        
+    }
+  }
+  
+  /* Estilos para telas grandes */
+  @media (min-width: 1200px) {
+    
+  }

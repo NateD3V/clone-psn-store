@@ -1,0 +1,16 @@
+.home-container{
+    width: 90%;
+    margin: auto;
+    padding-top: 25px;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+/* Estilo para o título "Ofertas" no lado esquerdo */
+.ofertas-title {
+    float: left; /* Faz o título ficar à esquerda */
+    margin-right: 20px; /* Espaço à direita entre o título e os cards maiores */
+}

@@ -1,0 +1,45 @@
+/* Estilo para o menu responsivo */
+@media (max-width: 600px) {
+    .menu-bar-item ul {
+        display: none; /* Ocultar a lista de itens de menu em telas pequenas */
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .menu-button {
+        display: block; /* Exibir o botão de menu em telas pequenas */
+    }
+
+    .menu-bar-item.show-menu ul {
+        display: flex !important; /* Exibir a lista quando o botão de menu é clicado */
+        z-index: 999;
+    }
+
+    .menu-bar-item.show-menu ul li {
+        margin: 10px 0;
+    }
+
+
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+.menu-button{
+    display: none;
+}
+
+
+}
+
+@media (min-width: 1200px) {
+    .menu-button{
+        display: none;
+    }
+
+
+}

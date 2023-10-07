@@ -1,0 +1,24 @@
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="menu-bar-container">
+    <div class="menu-bar-logo">
+        <img src="assets\assets\ps-logo.png" 
+        alt="playstation logo" 
+        srcset=""
+        width="140px"
+        height="32px">
+    </div>
+    <div class="menu-bar-item" [ngClass]="{'show-menu':isMenuVisible}">
+        <ul>
+            <li><a href="https://github.com/NateD3V">GITHUB</a></li>
+            <li><a href="https://www.linkedin.com/in/devnate/">LINKEDIN</a></li>
+            <li><a href="https://www.dio.me/">DIO</a></li>
+
+            
+            
+        </ul>
+    </div>
+    <button class="menu-button" (click)="toggleMenu()">
+        <i class="fa fa-bars"></i> <!-- Ícone de menu (Font Awesome) -->
+    </button>
+</div>
